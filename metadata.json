@@ -1,0 +1,6 @@
+{
+  "name": "Desafio 28 Dias de Calistenia",
+  "description": "Desafio completo de 28 dias de calistenia personalizado para homem (peito e barriga) e mulher (glúteos e definição), com treinos de 30 min, caminhada de 15 min, checklist diário, visualizador 3D interativo e coach IA especialista.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

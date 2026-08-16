@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --sage: #8fa38e;
+  --sage-dark: #5c725b;
+  --sage-light: #eef3ed;
+  --cream: #f9f7f2;
+  --stone: #6d6d6b;
+  --stone-dark: #4a4a48;
+  --clay: #d9bba4;
+  --clay-dark: #8a7362;
+  --clay-light: #fdfaf4;
+  --white: #ffffff;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: var(--cream);
+    color: var(--stone-dark);
+  }
+}
+
+/* Custom subtle scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
